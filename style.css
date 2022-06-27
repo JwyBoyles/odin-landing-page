@@ -1,0 +1,29 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.content {
+    display: flex;
+}
+
+.paragraph {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.sign-up {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+}
+
