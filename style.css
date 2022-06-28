@@ -2,28 +2,82 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
+
+img {
+    height: auto;
+    width: 100px;
+}
+
+  button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    padding: 8px;
+    border-radius: 16px;
+    background: #3882f6;
+  }
+
+a,.secondtext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.logo   {
+    color: #E5E7EB;
+   margin-right: 1000px;
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.headerbody
+    {
+        display: flex;
+        flex-grow: 1;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
 .header {
     display: flex;
     background-color: #1f2937;
+    flex: 1;
+    flex-direction: column;
+}
+
+.trueheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
 }
 
 .content {
     display: flex;
+    flex: 1;
 }
 
 .paragraph {
     display: flex;
     background-color: #E5E7EB;
+    flex: 1;
 }
 
 .sign-up {
     display: flex;
+    flex: 1;
 }
 
 .footer {
     display: flex;
     background-color: #1f2937;
+    flex: 1;
 }
 
