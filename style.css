@@ -19,6 +19,10 @@ img {
     background: #3882f6;
   }
 
+p {
+    color: #F9FAF8;
+}
+
 a,.secondtext {
     font-size: 18px;
     color: #E5E7EB
@@ -80,19 +84,42 @@ a,.secondtext {
 }
 
 .paragraph {
-    display: flex;
     background-color: #E5E7EB;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.speaker {
+    margin-left: 1200px;
 }
 
 .sign-up {
     display: flex;
     flex: 1;
+    justify-content: center;
 }
 
 .footer {
     display: flex;
     background-color: #1f2937;
-    flex: 1;
+    justify-content: center;
 }
+
+.signupbox
+    {
+        background-color: #3882f6;
+        align-self: center;
+        display: flex;
+        padding: 40px;
+        gap: 5px;
+    }
 
