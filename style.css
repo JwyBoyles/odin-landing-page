@@ -59,7 +59,7 @@ a {
         flex-grow: 1;
         align-content: center;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
 .header {
