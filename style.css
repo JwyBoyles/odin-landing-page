@@ -7,7 +7,7 @@ body {
 }
 
 img {
-    height: auto;
+    height: 100px;
     width: 100px;
 }
 
@@ -89,6 +89,7 @@ a {
 
 .penguin {
     width: 300px;
+    height: auto;
 }
 
 .content {
@@ -96,19 +97,24 @@ a {
     flex: 1;
     text-align: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.imgcontainer {
+    display: flex;
+    gap: 72px;
 }
 
 .info {
     display: flex;
-    border: 2px solid blue;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .title2 {
-    margin-left: 1000px;
-    margin-right: 1000px;
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
@@ -153,4 +159,3 @@ a {
         padding: 40px;
         gap: 5px;
     }
-
